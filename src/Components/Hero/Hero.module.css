@@ -4,7 +4,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: calc(100vh - 62px - 4rem);
+    max-width: 1200px;
+    margin: 62px auto 0;
+    padding: 4rem 2rem;
     img {
         width: min(12rem, 100%);
         margin-bottom: 1rem;
@@ -14,9 +16,6 @@
     }
     h2 {
         margin-top: .5rem;
-    }
-    strong {
-        display: block;
     }
     p {
         font-size: 1.6rem;
@@ -36,11 +35,14 @@
         font-weight: 500;
         margin: auto;
     }
-    @media screen and (width > 768px) {
+}
+
+@media screen and (width > 768px) {
+    .hero {
         flex-direction: row;
         text-align: left;
         justify-content: space-between;
-        height: calc(100vh - 75px - 12rem);
+        margin: 75px auto 0;
         img {
             order: 1;
             width: 24rem;
@@ -60,7 +62,13 @@
             margin: unset;
         }
     }
-    @media screen and (width > 1200px) {
+}
+
+@media screen and (width > 1200px) {
+    .hero {
+        margin-top: unset;
+        height: 100vh;
+        padding: 0 2rem;
         img {
             width: 34rem;
         }
