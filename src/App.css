@@ -18,9 +18,23 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 4rem 2rem;
+    scroll-margin-top: 5rem;
     @media screen and (width > 1200px) {
         padding: 6rem 2rem;
+        scroll-margin-top: 10rem;
+    }
+}
+
+.containerDiff {
+    @media screen and (width > 1200px) {
+        padding: 0 2rem 6rem;
+    }
+}
+
+.containerDiffMobile {
+    @media screen and (width < 768px){
+        padding: 0 2rem 4rem;
     }
 }
 

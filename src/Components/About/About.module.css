@@ -9,13 +9,15 @@
     @media screen and (width > 768px) {
         flex-direction: row;
         gap: 6rem;
-        margin: 6rem 0 4rem;
+    }
+    @media screen and (width > 1200px) {
+        margin: 8rem 0 4rem;
     }
 }
 
 
 .experience__container {
-    border: 2px solid #000;
+    border: .3rem solid #000;
     border-radius: 1.5rem;
     padding: 2rem;
     text-align: center;

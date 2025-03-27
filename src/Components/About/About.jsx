@@ -2,7 +2,7 @@ import styles from "./About.module.css"
 
 export const About = () => {
   return (
-    <div className="container" id="about">
+    <div className="container containerDiff" id="about">
         <h2 className="sectionTitle">Sobre mim</h2>
         <div className={styles.experience__wrapper}>
             <div className={styles.experience__container}>
