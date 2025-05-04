@@ -1,8 +1,5 @@
-.swiper {
-    margin: 4rem 0;
-    @media screen and (width > 1200px){
-        margin: 8rem 0; 
-    }
+.swiperSkills {
+    margin-top: 4rem;
 }
 
 .skillItem {
@@ -13,26 +10,32 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    img {
-        max-height: 4rem;
+}
+.skillItem img {
+    max-height: 4rem;
+}
+.skillItem h3 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+.skillItem p {
+    font-size: 1.2rem;
+}
+
+@media screen and (width > 1200px) {
+    .swiperSkills {
+        margin-top: 8rem; 
     }
-    h3 {
-        font-size: 1.4rem;
-        margin-top: 1rem;
-    }
-    p {
-        font-size: 1.2rem;
-    }
-    @media screen and (width > 1200px) {
+    .skillItem {
         padding: 3rem;
-        img {
-            max-height: 6rem;
-        }
-        h3 {
-            font-size: 1.6rem;
-        }
-        p {
-            font-size: 1.4rem;
-        }
+    }
+    .skillItem img {
+        max-height: 6rem;
+    }
+    .skillItem h3 {
+        font-size: 1.6rem;
+    }
+    .skillItem p {
+        font-size: 1.4rem;
     }
 }

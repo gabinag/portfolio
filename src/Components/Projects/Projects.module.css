@@ -1,0 +1,56 @@
+.swiperProjects {
+    position: relative;
+    margin-top: 4rem;
+}
+
+.itemProject {
+    color: #000;
+    border: .3rem solid #000;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+.itemProject img {
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+.itemProject h3 {
+    font-size: 1.6rem;
+}
+.itemProject p {
+    font-size: 1.4rem;
+    margin: 1rem 0 2rem;
+    text-wrap: pretty;
+}
+
+.wrapButtons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.wrapButtons button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: .8rem 1.6rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+@media screen and (width > 1200px) {
+    .swiperProjects {
+        margin-top: 8rem; 
+    }
+    .swiper {
+        max-width: 104rem;
+    }
+}
+
+@media screen and (width > 1400px) {
+    .swiper {
+        max-width: 120rem;
+    }
+}

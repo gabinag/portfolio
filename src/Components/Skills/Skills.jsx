@@ -15,10 +15,10 @@ export const Skills = () => {
   return (
     <div className='container containerDiffMobile' id='skills'>
         <h2 className="sectionTitle">Skills</h2>
-        <Swiper className={styles.swiper}
+        <Swiper className={styles.swiperSkills}
             modules={[Navigation, Pagination, Autoplay]}
             autoplay={{
-              delay: 1500, 
+              delay: 2000, 
               disableOnInteraction: false, 
             }}
             loop={true} 

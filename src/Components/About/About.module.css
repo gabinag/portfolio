@@ -1,60 +1,36 @@
 .experience__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 2rem;
     margin: 4rem 0;
-
-    @media screen and (width > 768px) {
-        flex-direction: row;
-        gap: 6rem;
-    }
-    @media screen and (width > 1200px) {
-        margin: 8rem 0 4rem;
-    }
 }
-
 
 .experience__container {
     border: .3rem solid #000;
     border-radius: 1.5rem;
     padding: 2rem;
     text-align: center;
-    width: min(45rem, 100%);
-    h3 {
-        font-size: 2rem;
-    }
-    @media screen and (width > 768px) {
-        height: 24rem;
-    }
+    width: min(525px, 100%);
+}
+.experience__container h3{
+    font-size: 2rem;
 }
 
 .experience__itens {
     margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
     gap: 1.5rem;
-    @media screen and (width > 768px) {
-        justify-content: center;
-        height: calc(24rem - 9rem);
-    }
 }
 
-.experience__item {
-    h4 {
-        font-size: 1.6rem;
-        font-weight: 500;
-        margin-bottom: .5rem;
-    }
-    small {
-        font-size: 1.2rem;
-        font-weight: 600;
-    }
-    p {
-        font-size: 1.4rem;
-        margin-top: .5rem;
-    }
+.experience__item h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.experience__item small {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.experience__item p {
+    font-size: 1.4rem;
+    margin-top: .5rem;
 }
 
 .experienceText {
@@ -62,8 +38,21 @@
     line-height: 2.4rem;
 }
 
-.oneItem {
-    @media screen and (width > 768px) {
-        margin-top: 1rem;
+@media screen and (width > 768px) {
+    .experience__container {
+        height: 24rem;
+    }
+    .experience__itens {
+        height: calc(24rem - 9rem);
+    }
+}
+
+@media screen and (width > 1200px) {
+    .experience__wrapper {
+        margin: 8rem 0 4rem;
+        gap: 6rem;
+    }
+    .experience__container {
+        width: min(45rem, 100%);
     }
 }

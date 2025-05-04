@@ -4,7 +4,7 @@ import { Download } from "lucide-react";
 
 export const Hero = () => {
   return (
-        <div className={styles.hero} id="hero">
+        <div className={`${styles.hero} container`} id="hero">
             <img src={avatar} alt="avatar" />
             <div>
                 <h1>Hello World, I'm <br /><strong>Gabriela Nagamuta</strong></h1>

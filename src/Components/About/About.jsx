@@ -2,9 +2,9 @@ import styles from "./About.module.css"
 
 export const About = () => {
   return (
-    <div className="container containerDiff" id="about">
+    <div className="container" id="about">
         <h2 className="sectionTitle">Sobre mim</h2>
-        <div className={styles.experience__wrapper}>
+        <div className={`${styles.experience__wrapper} d-flex flex-column flex-md-row align-items-center justify-content-center`}>
             <div className={styles.experience__container}>
                 <h3>Experiência</h3>
                 <div className={styles.experience__itens}>
@@ -22,7 +22,7 @@ export const About = () => {
             </div>
             <div className={styles.experience__container}>
                 <h3>Educação</h3>
-                <div className={`${styles.experience__itens} ${styles.oneItem}`}>
+                <div className={`${styles.experience__itens} mt-md-3 d-flex flex-column justify-content-center`}>
                     <div className={styles.experience__item}>
                         <h4>Tecnologia em Sistemas para Internet</h4>
                         <small>2021 - 2024</small>
