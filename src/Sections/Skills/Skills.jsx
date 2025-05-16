@@ -10,6 +10,7 @@ import css from '../../Assets/css.png';
 import js from '../../Assets/js.png';
 import react from '../../Assets/react.png';
 import git from '../../Assets/git.png';
+import { Skill } from '../../Components/Skill/Skill';
 
 export const Skills = () => {
   return (
@@ -37,53 +38,28 @@ export const Skills = () => {
             }}
             >
             <SwiperSlide >
-              <div className={styles.skillItem}>
-                <img src={html} alt="Ícone HTML" />
-                <h3>HTML</h3>
-                <p>Avançado</p>
-              </div>
+              <Skill skillIcon={html} skillTitle="html" skillLevel="Avançado"/>
             </SwiperSlide>
             <SwiperSlide>
-              <div className={styles.skillItem}>
-                <img src={css} alt="Ícone CSS" />
-                <h3>CSS</h3>
-                <p>Avançado</p>
-              </div>
+              <Skill skillIcon={css} skillTitle="css" skillLevel="Avançado"/>
             </SwiperSlide>
             <SwiperSlide>
-              <div className={styles.skillItem}>
-                <img src={js} alt="Ícone JavaScript" />
-                <h3>JavaScript</h3>
-                <p>Avançado</p>
-              </div>
+              <Skill skillIcon={js} skillTitle="js" skillLevel="Avançado"/>
             </SwiperSlide>
             <SwiperSlide>
-              <div className={styles.skillItem}>
-                <img src={react} alt="Ícone React" />
-                <h3>React</h3>
-                <p>Avançado</p>
-              </div>
+              <Skill skillIcon={react} skillTitle="react" skillLevel="Avançado"/>
             </SwiperSlide>
             <SwiperSlide>
-              <div className={styles.skillItem}>
-                <img src={git} alt="Ícone Git" />
-                <h3>Git</h3>
-                <p>Avançado</p>
-              </div>
+              <Skill skillIcon={git} skillTitle="git" skillLevel="Avançado"/>
             </SwiperSlide>
             <SwiperSlide>
-              <div className={styles.skillItem}>
-                <img src={git} alt="Ícone Git" />
-                <h3>Git</h3>
-                <p>Avançado</p>
-              </div>
+              <Skill skillIcon={git} skillTitle="git" skillLevel="Avançado"/>
             </SwiperSlide>
             <SwiperSlide>
-              <div className={styles.skillItem}>
-                <img src={git} alt="Ícone Git" />
-                <h3>Git</h3>
-                <p>Avançado</p>
-              </div>
+              <Skill skillIcon={git} skillTitle="git" skillLevel="Avançado"/>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Skill skillIcon={git} skillTitle="git" skillLevel="Avançado"/>
             </SwiperSlide>
         </Swiper>
     </div>

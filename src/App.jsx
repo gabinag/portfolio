@@ -1,11 +1,11 @@
 import './App.css'; 
-import { About } from './Components/About/About';
-import { Header } from './Components/Header/Header';
-import { Hero } from './Components/Hero/Hero';
-import { Projects } from './Components/Projects/Projects';
-import { Skills } from './Components/Skills/Skills';
-import { Contact } from './Components/Contact/Contact';
-import { Footer } from './Components/Footer/Footer';
+import { About } from './Sections/About/About';
+import { Header } from './Sections/Header/Header';
+import { Hero } from './Sections/Hero/Hero';
+import { Projects } from './Sections/Projects/Projects';
+import { Skills } from './Sections/Skills/Skills';
+import { Contact } from './Sections/Contact/Contact';
+import { Footer } from './Sections/Footer/Footer';
 
 
 function App() {

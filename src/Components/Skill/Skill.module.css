@@ -1,7 +1,3 @@
-.swiperSkills {
-    margin-top: 4rem;
-}
-
 .skillItem {
     border: .3rem solid #000;
     border-radius: 1.5rem;
@@ -23,9 +19,6 @@
 }
 
 @media screen and (width > 1200px) {
-    .swiperSkills {
-        margin-top: 8rem; 
-    }
     .skillItem {
         padding: 3rem;
     }
