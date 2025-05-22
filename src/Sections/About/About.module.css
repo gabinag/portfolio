@@ -1,10 +1,11 @@
 .experience__wrapper {
     gap: 2rem;
     margin: 4rem 0;
+    color: var(--body-color);
 }
 
 .experience__container {
-    border: .3rem solid #000;
+    border: .3rem solid var(--body-color);
     border-radius: 1.5rem;
     padding: 2rem;
     text-align: center;
@@ -36,6 +37,8 @@
 .experienceText {
     font-size: 1.6rem;
     line-height: 2.4rem;
+    color: var(--body-color);
+    margin: 0;
 }
 
 @media screen and (width > 768px) {

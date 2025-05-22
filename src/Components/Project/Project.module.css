@@ -1,9 +1,11 @@
 .itemProject {
     color: #000;
-    border: .3rem solid #000;
+    border: .3rem solid var(--detail-2);
     border-radius: 1.5rem;
     padding: 2rem;
     text-align: center;
+    color: var(--body-color);
+    background-color: var(--detail);
 }
 .itemProject img {
     width: 100%;
@@ -24,14 +26,16 @@
 .wrapButtons {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 .wrapButtons a {
-    background-color: #000;
+    background-color: var(--detail-2);
     color: #fff;
     border: none;
     border-radius: 1rem;
     padding: .8rem 1.6rem;
     font-size: 1.4rem;
     cursor: pointer;
+    width: 11rem;
 }
