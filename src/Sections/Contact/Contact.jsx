@@ -2,8 +2,8 @@ import { Github, Linkedin, Mail } from "lucide-react"
 
 export const Contact = () => {
   return (
-    <section className="bgColor">
-        <div className="container" id='contact'>
+    <section id='contact' className="bgColor">
+        <div className="container">
             <div className="text-center">
                 <h2 className="contactTitle">Contato</h2>
                 <p className="contactText">Se nossos interesses se alinham ou você tem uma ideia que gostaria de discutir, estou à disposição. <br />

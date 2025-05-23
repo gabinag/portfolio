@@ -5,11 +5,12 @@
 }
 
 .experience__container {
-    border: .3rem solid var(--body-color);
+    border: .3rem solid var(--detail-2);
     border-radius: 1.5rem;
     padding: 2rem;
     text-align: center;
     width: min(525px, 100%);
+    background-color: var(--detail);
 }
 .experience__container h3{
     font-size: 2rem;

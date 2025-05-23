@@ -16,8 +16,15 @@
 .hero h1, h2 {
     font-weight: 400;
 }
+.hero h1 {
+    color: var(--detail-3);
+}
+.hero h1 strong {
+    color: var(--body-color);
+}
 .hero h2 {
     margin-top: .5rem;    
+    color: var(--detail-3);
 }
 .hero p {
     font-size: 1.6rem;

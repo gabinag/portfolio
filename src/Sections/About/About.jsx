@@ -2,8 +2,8 @@ import styles from "./About.module.css"
 
 export const About = () => {
   return (
-    <section className="bgColor">
-        <div className="container" id="about">
+    <section id="about" className="bgColor">
+        <div className="container">
             <h2 className="sectionTitle">Sobre mim</h2>
             <div className={`${styles.experience__wrapper} d-flex flex-column flex-md-row align-items-center justify-content-center`}>
                 <div className={styles.experience__container}>

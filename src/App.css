@@ -3,6 +3,7 @@
     --body-color: #000;
     --detail: #fff;
     --detail-2: #000;
+    --detail-3: #525252;
     --bg-footer: #000;
 }
 
@@ -11,6 +12,7 @@
     --body-color: #fff;
     --detail: #242526;
     --detail-2: #7b7b7b;
+    --detail-3: #a9a9a9;
     --bg-footer: #242526;
 }
 
@@ -47,6 +49,7 @@ ul {
 .bgColor {
     background-color: var(--body-background);
     padding-bottom: 4rem;
+    scroll-margin-top: 10rem;
 }
 
 @media screen and (width > 992px) {
@@ -84,7 +87,7 @@ ul {
 
 .customPrev, .customNext {
     position: absolute;
-    margin-top: 20rem;
+    margin-top: 18rem;
     font-size: 3rem;
     cursor: pointer;
     display: none;
@@ -143,9 +146,15 @@ ul {
 footer {
     text-align: center;
     background-color: var(--bg-footer);
-    color: #fff;
+    color: #a9a9a9;
     padding: 3rem 2rem;
 }
 footer p {
     margin-bottom: 0;
+}
+
+.iconSkill {
+    fill: var(--body-color);
+    width: 4.5rem;
+    height: 4.5rem;
 }

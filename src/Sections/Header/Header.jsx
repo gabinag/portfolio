@@ -28,7 +28,7 @@ export const Header = () => {
           <li><a href="#contact">Contato</a></li>
         </ul>
         <button className={styles.menuToggle} onClick={() => setIsOpen(!isOpen)}>
-          {isOpen ? <X size={28} strokeWidth={2}/> : <Menu size={28} strokeWidth={2}/>}
+          {isOpen ? <X size={28} strokeWidth={2} color="var(--detail-3)"/> : <Menu size={28} strokeWidth={2} color="var(--detail-3)"/>}
         </button>
       </div>
 

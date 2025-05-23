@@ -5,17 +5,17 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import html from '../../Assets/html.png';
-import css from '../../Assets/css.png';
-import js from '../../Assets/js.png';
-import react from '../../Assets/react.png';
-import git from '../../Assets/git.png';
+import { ReactComponent as HTMLIcon } from "../../Assets/html.svg";
+import { ReactComponent as CSSIcon } from "../../Assets/css.svg";
+import { ReactComponent as JSIcon } from "../../Assets/js.svg";
+import { ReactComponent as ReactIcon } from "../../Assets/react.svg";
+import { ReactComponent as GitIcon } from "../../Assets/git.svg";
 import { Skill } from '../../Components/Skill/Skill';
 
 export const Skills = () => {
   return (
-    <section className="bgColor">
-      <div className='container containerDiffMobile' id='skills'>
+    <section id='skills' className="bgColor">
+      <div className='container'>
           <h2 className="sectionTitle">Skills</h2>
           <Swiper className={styles.swiperSkills}
               modules={[Navigation, Pagination, Autoplay]}
@@ -39,28 +39,28 @@ export const Skills = () => {
               }}
               >
               <SwiperSlide >
-                <Skill skillIcon={html} skillTitle="html" skillLevel="Avançado"/>
+                <Skill skillIcon={<HTMLIcon className="iconSkill"/>} skillTitle="html" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={css} skillTitle="css" skillLevel="Avançado"/>
+                <Skill skillIcon={<CSSIcon className="iconSkill"/>} skillTitle="css" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={js} skillTitle="js" skillLevel="Avançado"/>
+                <Skill skillIcon={<JSIcon className="iconSkill"/>} skillTitle="js" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={react} skillTitle="react" skillLevel="Avançado"/>
+                <Skill skillIcon={<ReactIcon className="iconSkill"/>} skillTitle="react" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={git} skillTitle="git" skillLevel="Avançado"/>
+                <Skill skillIcon={<GitIcon className="iconSkill"/>} skillTitle="git" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={git} skillTitle="git" skillLevel="Avançado"/>
+                <Skill skillIcon={<ReactIcon className="iconSkill"/>} skillTitle="git" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={git} skillTitle="git" skillLevel="Avançado"/>
+                <Skill skillIcon={<ReactIcon className="iconSkill"/>} skillTitle="git" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={git} skillTitle="git" skillLevel="Avançado"/>
+                <Skill skillIcon={<ReactIcon className="iconSkill"/>} skillTitle="git" skillLevel="Avançado"/>
               </SwiperSlide>
           </Swiper>
       </div>

@@ -9,8 +9,8 @@ import { Project } from "../../Components/Project/Project";
 
 export const Projects = () => {
   return (
-    <section className="bgColor">
-      <div className="container" id="projects">
+    <section id="projects" className="bgColor">
+      <div className="container">
         <h2 className="sectionTitle">Projetos</h2>
         <div className={styles.swiperProjects}>
           <div className="customPrev">◀</div>
@@ -37,7 +37,7 @@ export const Projects = () => {
               <Project
                 projectImg={teste}
                 projectTitle="teste"
-                projectDesc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dicta suscipit. Quis saepe et ut ullam totam facilis quibusdam hic inventore debitis dolor."
+                projectDesc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dicta suscipit. Quis saepe et ut ullam totam facilis quibusdam hic inventore debitis dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dicta suscipit. Quis saepe et ut ullam totam facilis quibusdam hic inventore debitis dolor."
                 projectGitHub="https://github.com/gabinag/devsburger"
                 projectDemo="https://github.com/gabinag/devsburger"
               />
