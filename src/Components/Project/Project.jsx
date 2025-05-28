@@ -8,7 +8,7 @@ export const Project = (props) => {
         <p>{props.projectDesc}</p>
         <div className={styles.wrapButtons}>
             <a href={props.projectGitHub} target="__blank">Github</a>
-            <a href={props.projectDemo} target="__blank">Live Demo</a>
+            <a href={props.projectDemo} target="__blank">Demo</a>
         </div>
     </div>
   );

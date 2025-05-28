@@ -1,12 +1,16 @@
 import styles from "./Hero.module.css";
 import avatar from "../../Assets/avatar.png";
 import { Download } from "lucide-react";
+import { ReactComponent as Stars } from "../../Assets/stars.svg";
 
 export const Hero = () => {
   return (
     <section className="bgColor pb-0">
       <div className={`${styles.hero} container`} id="hero">
-          <img src={avatar} alt="avatar" />
+          <div className={styles.avatarWrapper}>
+            <img src={avatar} alt="avatar" className={styles.avatar} />
+            <Stars className={styles.stars} />
+          </div>
           <div>
               <h1>Hello World, I'm <br /><strong>Gabriela Nagamuta</strong></h1>
               <h2>Front-end Developer</h2>
