@@ -14,8 +14,8 @@ export const Hero = () => {
           <div>
               <h1>Hello World, I'm <br /><strong>Gabriela Nagamuta</strong></h1>
               <h2>Front-end Developer</h2>
-              <p>Tecnóloga em Sistemas para Internet pela Fatec Rubens Lara e atuo como Desenvolvedora Front-end Júnior. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit nam magni quas odio aliquam optio doloremque ea consequuntur.</p>
-              <a href="CV-Gabriela-Nagamuta.pdf" download="CV-Gabriela-Nagamuta.pdf"><Download size={18} />Resume</a>
+              <p>Tecnóloga em Sistemas para Internet pela FATEC Rubens Lara, atuo como Desenvolvedora Front-end Júnior, transformando interfaces em experiências intuitivas e funcionais. Estou em constante aprendizado e sempre em busca de novos desafios para evoluir como profissional.</p>
+              <a href="CV-Gabriela-Nagamuta.pdf" download="CV-Gabriela-Nagamuta.pdf"><Download size={18} />Download CV</a>
           </div>
       </div>
     </section>

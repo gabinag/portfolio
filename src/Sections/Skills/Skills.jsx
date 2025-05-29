@@ -10,6 +10,8 @@ import { ReactComponent as CSSIcon } from "../../Assets/css.svg";
 import { ReactComponent as JSIcon } from "../../Assets/js.svg";
 import { ReactComponent as ReactIcon } from "../../Assets/react.svg";
 import { ReactComponent as GitIcon } from "../../Assets/git.svg";
+import { ReactComponent as BootstrapIcon } from "../../Assets/bootstrap.svg";
+import { ReactComponent as NodeIcon } from "../../Assets/node.svg";
 import { Skill } from '../../Components/Skill/Skill';
 
 export const Skills = () => {
@@ -39,28 +41,25 @@ export const Skills = () => {
               }}
               >
               <SwiperSlide >
-                <Skill skillIcon={<HTMLIcon className="iconSkill"/>} skillTitle="html" skillLevel="Avançado"/>
+                <Skill skillIcon={<HTMLIcon className="iconSkill"/>} skillTitle="HTML" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={<CSSIcon className="iconSkill"/>} skillTitle="css" skillLevel="Avançado"/>
+                <Skill skillIcon={<CSSIcon className="iconSkill"/>} skillTitle="CSS" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={<JSIcon className="iconSkill"/>} skillTitle="js" skillLevel="Avançado"/>
+                <Skill skillIcon={<JSIcon className="iconSkill"/>} skillTitle="JavaScript" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={<ReactIcon className="iconSkill"/>} skillTitle="react" skillLevel="Avançado"/>
+                <Skill skillIcon={<ReactIcon className="iconSkill"/>} skillTitle="React" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={<GitIcon className="iconSkill"/>} skillTitle="git" skillLevel="Avançado"/>
+                <Skill skillIcon={<GitIcon className="iconSkill"/>} skillTitle="Git" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={<ReactIcon className="iconSkill"/>} skillTitle="git" skillLevel="Avançado"/>
+                <Skill skillIcon={<BootstrapIcon className="iconSkill"/>} skillTitle="Bootstrap" skillLevel="Avançado"/>
               </SwiperSlide>
               <SwiperSlide>
-                <Skill skillIcon={<ReactIcon className="iconSkill"/>} skillTitle="git" skillLevel="Avançado"/>
-              </SwiperSlide>
-              <SwiperSlide>
-                <Skill skillIcon={<ReactIcon className="iconSkill"/>} skillTitle="git" skillLevel="Avançado"/>
+                <Skill skillIcon={<NodeIcon className="iconSkill"/>} skillTitle="Node.js" skillLevel="Básico"/>
               </SwiperSlide>
           </Swiper>
       </div>

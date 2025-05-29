@@ -32,7 +32,7 @@ export const About = () => {
                     </div>
                 </div>
             </div>
-            <p className={styles.experienceText}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A voluptatem perferendis nihil laborum velit. Maxime ut natus hic iure totam adipisci minima dolor odit odio, minus reprehenderit labore at illo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ut asperiores veniam eligendi vel error. Vel fuga dolorem libero amet, corporis explicabo labore consequatur quidem, dolores consectetur harum facilis cum?</p>
+            <p className={styles.experienceText}>Trabalho na construção de interfaces web modernas, responsivas e focadas na melhor experiência do usuário. Ao longo da minha jornada, desenvolvi projetos que envolvem desde o consumo de APIs até a criação de componentes reutilizáveis com React, aplicação de boas práticas com HTML, CSS, JavaScript. Utilizo ferramentas como Git, Figma e Bootstrap. Além disso, estou constantemente me dedicando ao aprendizado de tecnologias voltadas para testes de qualidade e desenvolvimento back-end, com o objetivo de evoluir para uma atuação Full Stack.</p>
         </div>
     </section>
   )

@@ -66,4 +66,7 @@
         line-clamp: 4;
         max-height: 8.3rem;
     }
+    .itemProject img {
+        height: 20rem;
+    }
 }
