@@ -9,7 +9,8 @@ import devsburger from "../../Assets/projects/devsburger.png";
 import fintech from "../../Assets/projects/fintech.png";
 import litoralUnido from "../../Assets/projects/litoral-unido.png";
 import stopflix from "../../Assets/projects/stopflix.png";
-import teste from "../../Assets/teste.png";
+import nlwConnect from "../../Assets/projects/nlw-connect-node.png";
+import snacks from "../../Assets/projects/snacks-react-native.png";
 
 export const Projects = () => {
   return (
@@ -68,7 +69,7 @@ export const Projects = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Project
-                projectImg={teste}
+                projectImg={snacks}
                 projectTitle="Snacks React Native"
                 projectDesc="Mini apps desenvolvidos em React Native com Expo durante a aula de Desenvolvimento para Dispositivos Móveis II - Sistemas para Internet (Fatec Rubens Lara)"
                 projectGitHub="https://github.com/gabinag/snacks-react-native"
@@ -76,7 +77,7 @@ export const Projects = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Project
-                projectImg={teste}
+                projectImg={nlwConnect}
                 projectTitle="NLW Connect - Node.js"
                 projectDesc="API RESTful para um sistema de indicações de eventos online, explorando banco de dados SQL, Fastify, documentação com Swagger e validação de dados."
                 projectGitHub="https://github.com/gabinag/nlw-connect---trilha-nodejs"
