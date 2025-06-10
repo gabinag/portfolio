@@ -1,4 +1,3 @@
-import styles from "./Projects.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -11,17 +10,52 @@ import litoralUnido from "../../Assets/projects/litoral-unido.png";
 import stopflix from "../../Assets/projects/stopflix.png";
 import nlwConnect from "../../Assets/projects/nlw-connect-node.png";
 import snacks from "../../Assets/projects/snacks-react-native.png";
+import styled from 'styled-components';
+import { SectionTitle } from "../../Styles/SectionTitle";
+import { Section } from "../../Styles/Section";
+import { Container } from "../../Styles/Container";
+
+const SwiperContainer = styled.div `
+  position: relative;
+  .swiper-wrapper {
+    width: 70% !important;
+  }
+  .customPrev, .customNext {
+    position: absolute;
+    margin-top: 18rem;
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
+    color: var(--detail-2);
+  }
+  .customNext {
+      right: 0;
+  }
+  @media (min-width: 1200px) {
+      .swiper {
+          max-width: 104rem;
+      }
+      .customPrev, .customNext {
+        display: block;
+      }
+  }
+  @media (min-width: 1400px) {
+      .swiper {
+          max-width: 120rem;
+      }
+  }
+`
 
 export const Projects = () => {
   return (
-    <section id="projects" className="bgColor">
-      <div className="container">
-        <h2 className="sectionTitle">Projetos</h2>
-        <div className={styles.swiperProjects}>
+    <Section id="projects">
+      <Container>
+        <SectionTitle>Projetos</SectionTitle>
+        <SwiperContainer>
           <div className="customPrev">◀</div>
           <div className="customNext">▶</div>
           <Swiper
-            className={styles.swiper}
+            className="swiper"
             modules={[Navigation, Pagination]}
             navigation={{
               nextEl: ".customNext",
@@ -93,8 +127,8 @@ export const Projects = () => {
               />
             </SwiperSlide>
           </Swiper>
-        </div>
-      </div>
-    </section>
+        </SwiperContainer>
+      </Container>
+    </Section>
   );
 };

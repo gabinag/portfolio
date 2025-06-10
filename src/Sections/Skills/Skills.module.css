@@ -1,9 +1,0 @@
-.swiperSkills {
-    margin-top: 4rem;
-}
-
-@media screen and (width > 1200px) {
-    .swiperSkills {
-        margin-top: 8rem; 
-    }
-}

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { ReactComponent as SunIcon } from "../../Assets/sun.svg";
-import { ReactComponent as MoonIcon } from "../../Assets/moon.svg";
-import styles from "./DarkMode.module.css";
+import { ReactComponent as SunIcon } from "../../Assets/icons/sun.svg";
+import { ReactComponent as MoonIcon } from "../../Assets/icons/moon.svg";
+import { DarkModeContainer } from "./DarkModeStyles";
 
 export const DarkMode = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -33,19 +33,18 @@ export const DarkMode = () => {
     };
 
     return (
-        <div className={styles.dark_mode}>
+        <DarkModeContainer>
             <input
-                className={styles.dark_mode_input}
                 type='checkbox'
                 id='darkmode-toggle'
                 onChange={toggleTheme}
                 checked={isDarkMode}
             />
-            <label className={styles.dark_mode_label} htmlFor='darkmode-toggle'>
-                <SunIcon className={styles.sun} />
-                <MoonIcon className={styles.moon} />
+            <label htmlFor='darkmode-toggle'>
+                <SunIcon className="sun" />
+                <MoonIcon className="moon" />
             </label>
-        </div>
+        </DarkModeContainer>
     );
 };
 

@@ -1,26 +1,29 @@
-import { Github, Linkedin, Mail } from "lucide-react"
+import { ContactWrapper, ContactLinks } from './ContactStyles';
+import { Section } from "../../Styles/Section";
+import { Container } from "../../Styles/Container";
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 export const Contact = () => {
   return (
-    <section id='contact' className="bgColor">
-        <div className="container">
-            <div className="text-center">
-                <h2 className="contactTitle">Contato</h2>
-                <p className="contactText">Se nossos interesses se alinham ou você tem uma ideia que gostaria de discutir, estou à disposição. <br />
+    <Section id="contact">
+        <Container>
+            <ContactWrapper>
+                <h2>Contato</h2>
+                <p>Se nossos interesses se alinham ou você tem uma ideia que gostaria de discutir, estou à disposição. <br />
                 <strong>Vamos nos conectar!</strong></p>
-            </div>
-            <div className="contactLinks d-flex justify-content-center">
+            </ContactWrapper>
+            <ContactLinks>
                 <a href="https://github.com/gabinag" target="__blank">
-                    <Github className="contactIcon" />
+                    <FaGithub className="contactIcon" />
                 </a>
                 <a href="https://www.linkedin.com/in/gabriela-nagamuta/" target="__blank">
-                    <Linkedin className="contactIcon" />
+                    <FaLinkedin className="contactIcon" />
                 </a>
                 <a href="mailto:gabriela.nagamuta@gmail.com">
-                    <Mail className="contactIcon" />
+                    <FaEnvelope className="contactIcon" />
                 </a>
-            </div>
-        </div>
-    </section>
+            </ContactLinks>
+        </Container>
+    </Section>
   )
 }
