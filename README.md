@@ -14,7 +14,7 @@ Projeto do meu portfólio pessoal, onde compartilho um pouco sobre mim, projetos
 ## ✨ Funcionalidades
 
 - Navegação entre as seções: **Sobre mim**, **Skills**, **Projetos** e **Contato**
-- Alternância entre **modo claro e escuro (dark/light)**
+- Alternância entre **modo claro e escuro**
 - Layout **responsivo**, adaptado para diferentes tamanhos de tela
 
 ---
