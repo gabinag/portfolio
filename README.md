@@ -1,8 +1,6 @@
 # 👩‍💻 Portfólio Web
 
-Este é o repositório do meu portfólio pessoal desenvolvido com **React**. O objetivo dele é apresentar um pouco sobre mim, projetos, habilidades e formas de contato.
-
----
+Projeto do meu portfólio pessoal, onde compartilho um pouco sobre mim, projetos, habilidades e formas de contato.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -11,15 +9,11 @@ Este é o repositório do meu portfólio pessoal desenvolvido com **React**. O o
 - **Swiper** – Carrosséis em Skills e Projetos
 - **GitHub Pages** – Deploy automático (`gh-pages`)
 
----
-
 ## ✨ Funcionalidades
 
 - Navegação entre as seções: **Sobre mim**, **Skills**, **Projetos** e **Contato**
 - Alternância entre **modo claro e escuro (dark/light)**
 - Layout **responsivo**, adaptado para diferentes tamanhos de tela
-
----
 
 Você pode acessar o portfólio em:  
 👉 [https://gabinag.github.io/portfolio/](https://gabinag.github.io/portfolio/)
