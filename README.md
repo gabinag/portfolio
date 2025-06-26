@@ -17,7 +17,7 @@ Projeto do meu portfólio pessoal, onde compartilho um pouco sobre mim, projetos
 - Alternância entre **modo claro e escuro (dark/light)**
 - Layout **responsivo**, adaptado para diferentes tamanhos de tela
 
-
+---
 Você pode acessar o portfólio em:  
 👉 [https://gabinag.github.io/portfolio/](https://gabinag.github.io/portfolio/)
 
