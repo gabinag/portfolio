@@ -1,8 +1,27 @@
-# React + Vite
+# 👩‍💻 Portfólio Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do meu portfólio pessoal desenvolvido com **React**. O objetivo dele é apresentar um pouco sobre mim, projetos, habilidades e formas de contato.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
+
+- **React 18**
+- **Styled-Components** – Estilização com CSS-in-JS
+- **Swiper** – Carrosséis em Skills e Projetos
+- **GitHub Pages** – Deploy automático (`gh-pages`)
+
+---
+
+## ✨ Funcionalidades
+
+- Navegação entre as seções: **Sobre mim**, **Skills**, **Projetos** e **Contato**
+- Alternância entre **modo claro e escuro (dark/light)**
+- Layout **responsivo**, adaptado para diferentes tamanhos de tela
+
+---
+
+Você pode acessar o portfólio em:  
+👉 [https://gabinag.github.io/portfolio/](https://gabinag.github.io/portfolio/)
+
+
